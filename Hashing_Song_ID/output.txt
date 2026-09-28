@@ -1,0 +1,21 @@
+SONG ID HASHING USING DIVISION METHOD
+
+Song IDs:
+105, 210, 315, 420, 525, 630, 735, 840
+
+Hash Function:
+h(k) = k % 10
+
+Hash values:
+
+105 % 10 = 5
+210 % 10 = 0
+315 % 10 = 5
+420 % 10 = 0
+525 % 10 = 5
+630 % 10 = 0
+735 % 10 = 5
+840 % 10 = 0
+
+Collisions occur because multiple song IDs
+produce the same hash index.
